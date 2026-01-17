@@ -1,0 +1,91 @@
+
+#login{
+  margin:20%;
+  padding:5%;
+  background-color:rgba(66,87,171,0.1);
+  border:15px inset rgba(66,87,171,0.5);
+}
+#login:hover
+{
+  border-top-left-radius:20%;
+  border-bottom-right-radius:20%;  
+  border:15px double rgba(66,87,171,0.5);
+  transition-duration:3s;
+}
+#login h1
+{
+    font-family:arial;
+    letter-spacing:5px;
+}
+#login p, input
+{
+  font-size:16pt;
+  font-family:helvetica;
+  letter-spacing:1px;
+  
+}
+#login p,h1
+{
+  text-align:center;
+  
+}
+
+.blur
+{
+  position:relative;  
+  border:12px dotted rgba(66,87,171,0.8);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+.blur:hover{
+  border:12px dashed rgba(66,87,171,0.4);
+}
+html{
+  background-image:url("https://imgur.com/4dPGKJJ.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-color:black;
+  
+}
+#btn_Enter
+{
+   padding: 10px 15px;
+   background:rgba(66,87,171,0.3);
+}
+#btn_Enter:hover
+{
+    background:rgba(66,87,171,0.9);
+    transition-duration:3s;
+  
+}
+#btn_Enter:active
+{
+  background:rgba(66,87,171,0.3);
+  border:1px inset rgba(66,87,171,0.3);
+  padding-right:30%;
+  padding-left:30%;
+}
+footer
+{
+  color:white;
+  text-align:center;
+  font-size:12pt;
+}
+span
+{
+  text-shadow:2px 2px 2px white;
+}
+span:hover
+{
+  text-shadow:3px 3px 3px rgba(66,87,171,1);
+  transition-duration:3s;
+}
+input:hover 
+{
+  box-shadow: 5px 5px 5px rgba(66,87,171,0.6);
+  transition-duration:3s;
+}
